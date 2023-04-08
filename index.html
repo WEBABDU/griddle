@@ -1,32 +1,448 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta
+      name="description"
+      content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки"
+    />
 
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
     <!-- Начало: Данный блок удалять нельзя -->
     <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
-        </div>
+      <a href="https://t.me/s/FigmaToHTML" target="_blank">
+        <img src="img/logo.png" />
+      </a>
+      <div>
+        <p>
+          Данная верстка, была реализована пользователем в рамках обучающего
+          телеграм канал
+          <a href="https://t.me/s/FigmaToHTML" target="_blank"
+            >FIGMA | Макеты для верстки</a
+          >
+        </p>
+        <p>
+          При помощи
+          <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank"
+            >Telegram-бота</a
+          >
+          пользователь получил оплату за верстку этого макета.
+        </p>
+      </div>
     </div>
     <!-- Конец -->
 
-    <div class="main">
-        В данном блоке размещается верстка
-    </div>
+    <div class="site-wrapper">
+      <div class="pre-header">
+        <p class="pre-header__text | text-align-center">
+          SHIPPING AND RETURNS ARE ALWAYS FREE FROM OUR PLACE TO YOURS 🙂
+        </p>
+      </div>
+      <header class="header">
+        <div class="header__wrapper | container">
+          <nav class="nav">
+            <ul role="list" class="nav__list-left">
+              <li>
+                <a href="#" class="nav__list-link"> Shop </a>
+              </li>
+              <li>
+                <a href="#" class="nav__list-link"> Always Pan </a>
+              </li>
+            </ul>
+            <a href="/" class="nav__logo">
+              <img src="./img/site-logo.png" alt="site-logo" />
+            </a>
+            <ul role="list" class="nav__list-right">
+              <li>
+                <a href="#" class="nav__list-link">Mission</a>
+              </li>
+              <li>
+                <a href="#" class="nav__list-link">FAQs</a>
+              </li>
+              <li class="nav__list-profile">0</li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-</body>
+      <main class="main">
+        <section class="hero">
+          <div class="hero__wrapper | container">
+            <div class="hero__content | flow">
+              <p>Meet The Always Pan</p>
+              <h1 class="hero__title">Your new <span>skillet</span></h1>
+              <button class="hero-btn | button">Shop the Always Pan</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="partners">
+          <div class="partners__wrapper | container">
+            <div class="partners__content | flow">
+              <h3
+                class="partners__title | text-align-center margin-inline-auto"
+              >
+                "Doing the job of eight traditional cookware pieces"
+              </h3>
+              <div class="partners__logos | margin-inline-auto">
+                <img src="./img/partner-1.png" alt="partner-logo" />
+                <img src="./img/partner-2.png" alt="partner-logo" />
+                <img src="./img/partner-3.png" alt="partner-logo" />
+                <img src="./img/partner-4.png" alt="partner-logo" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="our-place">
+          <div class="our-place__wrapper | container">
+            <div class="our-place__content">
+              <h2 class="our-place__titile | text-align-center">
+                Welcome to Our Place
+              </h2>
+              <p class="our-place__description">
+                At Our Place, we believe in the power of home-cooking to bring
+                people together. Our collections are new heirlooms from the
+                cultures and places that make up the fabric of the modern
+                multi-ethnic kitchen. We design thoughtfully, source ethically,
+                and produce sustainably because what we make is connected to one
+                another and the earth we share.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="design">
+          <div class="design__wrapper | container">
+            <div class="design__content | flow">
+              <h3 class="design__title | text-align-center">
+                Designed for Everything and Always
+              </h3>
+              <div class="design__colors">
+                <div class="circle" style="--color: #e09d81"></div>
+                <div class="circle" style="--color: #748ea1"></div>
+                <div class="circle" style="--color: #b76d47"></div>
+                <div class="circle" style="--color: #7d836e"></div>
+                <div class="circle" style="--color: #c33636"></div>
+                <div class="circle" style="--color: #cdc7b3"></div>
+                <div class="circle active" style="--color: #595752"></div>
+                <div class="circle" style="--color: #d3c2ca"></div>
+              </div>
+              <div class="design__griddle">
+                <img src="./img/griddle.png" alt="griddle" />
+                <div class="griddle-rec-1 | rectangle position-absolute"></div>
+                <div class="griddle-rec-2 | rectangle position-absolute"></div>
+                <div class="griddle-rec-3 | rectangle position-absolute"></div>
+                <div class="griddle-rec-4 | rectangle position-absolute"></div>
+                <div class="griddle-rec-5 | rectangle position-absolute"></div>
+                <div class="griddle-rec-6 | rectangle position-absolute"></div>
+                <p class="griddle-info-text first | position-absolute">
+                  Modular lid to release & trap steam
+                </p>
+                <p class="griddle-info-text second | position-absolute">
+                  Beechwood spatula & built-in spoon rest
+                </p>
+                <p class="griddle-info-text third | position-absolute">
+                  Nesting steamer basket & colander
+                </p>
+                <p class="griddle-info-text fourth | position-absolute">
+                  2 easy-pour spouts
+                </p>
+                <p class="griddle-info-text fifth | position-absolute">
+                  Stay cool handle
+                </p>
+                <p class="griddle-info-text sixth | position-absolute">
+                  Exclusive, ceramic nonstick made without PFOAs & PTFEs
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="products">
+          <div class="products__wrapper | container">
+            <div class="products__content | flow">
+              <h3 class="products__title | margin-inline-auto">
+                From curated essentials to limited-run editions.
+              </h3>
+              <p class="products__description | margin-inline-auto">
+                We make products inspired by traditions – and we're starting
+                with one you might be familiar with: Dinner.
+              </p>
+              <div class="products__cards">
+                <div class="products__card | flow">
+                  <div class="product__card-image">
+                    <img src="./img/product-1.png" alt="product-1" />
+                  </div>
+                  <div class="products__card-content | flow">
+                    <h5 class="products__card-title">Side Bowls</h5>
+                    <span class="products__card-price">SET OF 4 -$45</span>
+                    <p class="products__card-description">
+                      Hand-painted porcelain stackable bowls, designed for
+                      plating, eating, and scooping.
+                    </p>
+                  </div>
+                  <div class="products__card-colors">
+                    <div
+                      class="circle active"
+                      style="
+                        --size: 20px;
+                        --color: #e09d81;
+                        --border-color: #6e6259;
+                        --border-width: 3px;
+                      "
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #cdc7b3"
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #595752"
+                    ></div>
+                  </div>
+                </div>
+                <div class="products__card | flow">
+                  <div class="product__card-image">
+                    <img src="./img/product-2.png" alt="product-2" />
+                  </div>
+                  <div class="products__card-content | flow">
+                    <h5 class="products__card-title">Drinking Glasses</h5>
+                    <span class="products__card-price">SET OF 4 - $50</span>
+                    <p class="products__card-description">
+                      Hand-made and stackable. Made from recycled glass and
+                      natural sand. Naturally colored, without dyes.
+                    </p>
+                  </div>
+                  <div class="products__card-colors">
+                    <div
+                      class="circle active"
+                      style="
+                        --size: 20px;
+                        --color: #ccbd9e;
+                        --border-color: #6e6259;
+                        --border-width: 3px;
+                      "
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #b55900"
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #5b653b"
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #ffffff; --border-size: 1px"
+                    ></div>
+                  </div>
+                </div>
+                <div class="products__card | flow">
+                  <div class="product__card-image">
+                    <img src="./img/product-3.png" alt="product-3" />
+                  </div>
+                  <div class="products__card-content | flow">
+                    <h5 class="products__card-title">Main Plates</h5>
+                    <span class="products__card-price">SET OF 4 - $50</span>
+                    <p class="products__card-description">
+                      Hand-painted porcelain plates, stackable and designed for
+                      big appetites.
+                    </p>
+                  </div>
+                  <div class="products__card-colors">
+                    <div
+                      class="circle active"
+                      style="
+                        --size: 20px;
+                        --color: #e09d81;
+                        --border-color: #6e6259;
+                        --border-width: 3px;
+                      "
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #cdc7b3"
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #595752"
+                    ></div>
+                  </div>
+                </div>
+                <div class="products__card | flow">
+                  <div class="product__card-image">
+                    <img src="./img/product-4.png" alt="product-4" />
+                  </div>
+                  <div class="products__card-content | flow">
+                    <h5 class="products__card-title">Side Bowls</h5>
+                    <span class="products__card-price">SET OF 4 -$45</span>
+                    <p class="products__card-description">
+                      Hand-painted porcelain stackable bowls, designed for
+                      plating, eating, and scooping.
+                    </p>
+                  </div>
+                  <div class="products__card-colors">
+                    <div
+                      class="circle active"
+                      style="
+                        --size: 20px;
+                        --color: #e09d81;
+                        --border-color: #6e6259;
+                        --border-width: 3px;
+                      "
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #748ea1"
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #b76d47"
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #7d836e"
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #c33636"
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #cdc7b3"
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #595752"
+                    ></div>
+                    <div
+                      class="circle"
+                      style="--size: 20px; --color: #d3c2ca"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="follow">
+          <div class="follow__wrapper">
+            <div class="follow__image">
+              <img src="./img/follow-image-1.png" alt="follow" />
+            </div>
+            <div class="follow__content">
+              <div class="follow__content-main | flow text-align-center">
+                <span class="follow__tag | text-align-center"
+                  >#DirtyDishes</span
+                >
+                <h3 class="follow__title">
+                  A full sink is a sign of a great night. You wash, we'll dry.
+                </h3>
+                <button class="follow-btn | button margin-inline-auto">
+                  Follow Along
+                </button>
+              </div>
+            </div>
+            <div class="follow__image">
+              <img src="./img/follow-image-2.png" alt="follow" />
+            </div>
+          </div>
+        </section>
+
+        <section class="contacts">
+          <div class="contacts__wrapper | container">
+            <form action="#" class="contacts__form | flow">
+              <h4 class="contacts__form-title">Keep in touch 🙂</h4>
+              <p class="contacts__form-description">
+                Be the first to know about new collections, special events, and
+                what’s going on at Our Place.
+              </p>
+              <div class="contacts__form-fields">
+                <label class="form-control">
+                  <input type="email" name="email" placeholder="Your email" />
+                </label>
+                <button class="form-btn">Submit</button>
+              </div>
+            </form>
+            <div class="contacts__list-wrapper">
+              <ul role="list" class="contacts__list">
+                <div>
+                  <li>
+                    <a class="contacts__list-link-title" href="#">Shop</a>
+                  </li>
+                  <li>
+                    <a class="contacts__list-link" href="#">Main Plates</a>
+                  </li>
+                  <li>
+                    <a class="contacts__list-link" href="#">Side Bowls</a>
+                  </li>
+                  <li>
+                    <a class="contacts__list-link" href="#">Drinking Glasses</a>
+                  </li>
+                  <li>
+                    <a class="contacts__list-link" href="#">Family Dinner</a>
+                  </li>
+                  <li>
+                    <a class="contacts__list-link" href="#">Bundle</a>
+                  </li>
+                </div>
+                <div>
+                  <li>
+                    <a class="contacts__list-link-title" href="#">Company</a>
+                  </li>
+                  <li><a class="contacts__list-link" href="#">Mission</a></li>
+                  <li><a class="contacts__list-link" href="#">FAQs</a></li>
+                  <li>
+                    <a class="contacts__list-link" href="#">Contact Us</a>
+                  </li>
+                  <li><a class="contacts__list-link" href="#">Returns</a></li>
+                  <li>
+                    <a class="contacts__list-link" href="#">Bulk Orders</a>
+                  </li>
+                  <li><a class="contacts__list-link" href="#">Careers</a></li>
+                </div>
+                <div>
+                  <li>
+                    <a class="contacts__list-link-title" href="#">Social</a>
+                  </li>
+                  <li><a class="contacts__list-link" href="#">Instagram</a></li>
+                  <li><a class="contacts__list-link" href="#">Twitter</a></li>
+                </div>
+              </ul>
+              <div class="location">
+                <h4>You're In</h4>
+                <div class="location__flags">
+                  <img src="./img/flag-usa.png" alt="flag" />
+                  <img src="./img/flag-canada.png" alt="flag" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <div class="footer__wrapper | container">
+            <a href="#" class="footer-link">© Our Place 2021</a>
+            <div class="footer__nav">
+              <a class="footer-link" href="#">Copyright 2021</a>
+              <a class="footer-link" href="#">Privacy</a>
+              <a class="footer-link" href="#">Terms</a>
+              <a class="footer-link" href="#">Returns</a>
+              <a class="footer-buggy" href="#">
+                <img src="./img/buggy.png" alt="buggy" />
+              </a>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
 </html>
